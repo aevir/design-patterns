@@ -92,7 +92,7 @@ If you need to perform a specific operation on each part, such as displaying inf
 Each part of the computer system accepts this visitor, which then executes the operation based on the part's type, all without altering the classes of the computer parts themselves.
 
 [C#](/CSharp/Behavioural/Visitor.cs)
----
+___
 ## Creational Patterns
 Creational design patterns abstract the instantiation process. They help make a system independent of how its objects are created, composed, and represented. A class creational pattern uses inheritance to vary the class that’s instantiated, whereas an object creational pattern will delegate instantiation to another object.
 ___
@@ -142,7 +142,7 @@ The Singleton pattern is like having one and only one president for the entire g
 It ensures that there's a single instance of a class (the president) throughout your application, with a global access point to that instance.
 
 [C#](/CSharp/Creational/Singleton.cs)
----
+
 ## Structural Patterns
 Structural Design Patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations.
 ___
